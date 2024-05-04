@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/domain/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitCycleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/b1uesoda/myo/TestControllerTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +224,7 @@
       <workItem from="1713769296171" duration="10267000" />
       <workItem from="1714048556964" duration="3344000" />
       <workItem from="1714053417558" duration="302000" />
-      <workItem from="1714832244587" duration="300000" />
+      <workItem from="1714832244587" duration="730000" />
     </task>
     <servers />
   </component>
