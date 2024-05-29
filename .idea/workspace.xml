@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/service/BlogService.java" afterDir="false" />
-    </list>
+    <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +146,7 @@
       <recent name="com.b1uesoda.myo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BlogApiControllerTest.findAllArticles">
+  <component name="RunManager" selected="JUnit.BlogApiControllerTest.findArticle">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.b1uesoda.Main" />
       <module name="myo-springboot.main" />
@@ -163,30 +159,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="JUnitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;JUnitTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
     </configuration>
     <configuration name="BlogApiControllerTest.addArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="My-blog.test" />
@@ -220,6 +192,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BlogApiControllerTest.findArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="My-blog.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.b1uesoda.myo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.b1uesoda.myo.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.b1uesoda.myo.controller.BlogApiControllerTest" />
+      <option name="METHOD_NAME" value="findArticle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestControllerTest.getAllMembers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myo-springboot.test" />
       <extension name="coverage">
@@ -245,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BlogApiControllerTest.findArticle" />
         <item itemvalue="JUnit.BlogApiControllerTest.findAllArticles" />
         <item itemvalue="JUnit.BlogApiControllerTest.addArticle" />
         <item itemvalue="JUnit.TestControllerTest.getAllMembers" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.JUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -294,6 +282,7 @@
       <workItem from="1716720215306" duration="16000" />
       <workItem from="1716731025067" duration="1540000" />
       <workItem from="1716819907465" duration="97000" />
+      <workItem from="1716904796313" duration="254000" />
     </task>
     <servers />
   </component>
