@@ -140,7 +140,8 @@ class BlogApiControllerTest {
 
     @DisplayName("updateArticle: 블로그 글 수정에 성공한다.")
     @Test
-    public void updateArticle() throws Exception {
+    public void
+    updateArticle() throws Exception {
         // given
         final String url = "/api/articles/{id}";
         final String title = "title";
