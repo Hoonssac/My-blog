@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/b1uesoda/myo/controller/BlogApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/b1uesoda/myo/controller/BlogApiControllerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -303,7 +299,7 @@
       <workItem from="1718778769183" duration="4672000" />
       <workItem from="1718893540848" duration="206000" />
       <workItem from="1718980064777" duration="2087000" />
-      <workItem from="1719063979171" duration="117000" />
+      <workItem from="1719063979171" duration="161000" />
     </task>
     <servers />
   </component>
