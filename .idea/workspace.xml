@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/controller/BlogViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -305,7 +306,8 @@
       <workItem from="1719149278263" duration="2195000" />
       <workItem from="1719240146530" duration="776000" />
       <workItem from="1719322718838" duration="22000" />
-      <workItem from="1719752787453" duration="931000" />
+      <workItem from="1719752787453" duration="2217000" />
+      <workItem from="1719798891382" duration="3158000" />
     </task>
     <servers />
   </component>
