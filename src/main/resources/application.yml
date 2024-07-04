@@ -9,6 +9,10 @@ spring:
   datasource:
     url: jdbc:h2:mem:testdb
 
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
   h2:
     console:
       enabled: true
