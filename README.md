@@ -3,3 +3,4 @@
 ## 🖥️개발 환경
 - IDE : IntelliJ IDEA Ultimate
 - Framework : Spring Boot 3.2.3
+- Build : Gradle
