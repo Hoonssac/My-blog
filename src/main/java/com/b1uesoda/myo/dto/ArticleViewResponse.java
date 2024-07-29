@@ -18,6 +18,10 @@ public class ArticleViewResponse {
         this.id = article.getId();
         this.title = article.getTitle();
         this.content = article.getContent();
+<<<<<<< HEAD
         this.createdAt = article.getCreatedAt();
+=======
+        this.createdAt =article.getCreatedAt();
+>>>>>>> 6477f6574188554ff50cb8f5829833dc6fb62eb4
     }
 }
