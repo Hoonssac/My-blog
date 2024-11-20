@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/newArticle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="My-blog" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="My-blog" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="My-blog" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -47,8 +56,8 @@
         <option value="Kotlin Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -324,7 +333,9 @@
       <workItem from="1724328671531" duration="3861000" />
       <workItem from="1725626229135" duration="3180000" />
       <workItem from="1725629475339" duration="634000" />
-      <workItem from="1726665710534" duration="522000" />
+      <workItem from="1726665710534" duration="1209000" />
+      <workItem from="1726753329321" duration="611000" />
+      <workItem from="1732099433464" duration="1065000" />
     </task>
     <servers />
   </component>
