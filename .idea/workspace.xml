@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/controller/UserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/dto/AddUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -354,7 +356,8 @@
       <workItem from="1726753329321" duration="611000" />
       <workItem from="1732099433464" duration="1609000" />
       <workItem from="1732113618585" duration="1295000" />
-      <workItem from="1732199849347" duration="710000" />
+      <workItem from="1732199849347" duration="1346000" />
+      <workItem from="1732366761178" duration="419000" />
     </task>
     <servers />
   </component>
