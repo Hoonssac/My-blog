@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="data.sql">
+<dataSource name="testdb">
   <database-model serializer="dbm" dbms="H2" family-id="H2" format-version="4.52">
-    <root id="1"/>
-    <database id="2" parent="1" name="DATA.SQL">
+    <root id="1">
+      <ServerVersion>2.2.220</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="TESTDB">
       <Current>1</Current>
     </database>
     <collation id="3" parent="2" name="ALBANIAN"/>
@@ -167,7 +169,7 @@
     <schema id="162" parent="2" name="INFORMATION_SCHEMA"/>
     <schema id="163" parent="2" name="PUBLIC">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-05-26.14:05:13</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-08-01.10:36:39</LastIntrospectionLocalTimestamp>
     </schema>
   </database-model>
 </dataSource>
