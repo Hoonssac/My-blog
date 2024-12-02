@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/jwt/TokenProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/24a11e4a-733a-47da-95df-0b178a5132c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/24a11e4a-733a-47da-95df-0b178a5132c3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/b1uesoda/myo/config/jwt/JwtFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/MyoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/MyoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/jwt/JwtProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/jwt/JwtProperties.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +359,8 @@
       <workItem from="1732456334917" duration="699000" />
       <workItem from="1732541618270" duration="1575000" />
       <workItem from="1732630586485" duration="919000" />
-      <workItem from="1733063800637" duration="825000" />
+      <workItem from="1733063800637" duration="1952000" />
+      <workItem from="1733135159470" duration="675000" />
     </task>
     <servers />
   </component>
