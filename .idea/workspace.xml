@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/b1uesoda/myo/config/jwt/JwtFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/b1uesoda/myo/config/jwt/TokenProviderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -360,7 +360,8 @@
       <workItem from="1732541618270" duration="1575000" />
       <workItem from="1732630586485" duration="919000" />
       <workItem from="1733063800637" duration="1952000" />
-      <workItem from="1733135159470" duration="675000" />
+      <workItem from="1733135159470" duration="981000" />
+      <workItem from="1733325962902" duration="833000" />
     </task>
     <servers />
   </component>
