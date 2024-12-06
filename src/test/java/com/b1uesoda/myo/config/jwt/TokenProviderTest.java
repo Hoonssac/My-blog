@@ -28,7 +28,7 @@ public class TokenProviderTest {
     // generateToken() 검증 테스트
     @DisplayName("generateToken(): 유저 정보와 만료 기간을 전달해 토큰을 만들 수 있다.")
     @Test
-    void generateToke() {
+    void generateToken() {
         // given
         User testUser = userRepository.save(User.builder()
                 .email("user@gmail.com")
