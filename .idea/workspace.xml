@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/controller/TokenApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/b1uesoda/myo/controller/TokenApiControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/dto/CreateAccessTokenResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/dto/CreateAccessTokenResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +182,7 @@
       <recent name="com.b1uesoda.myo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TokenProviderTest">
+  <component name="RunManager" selected="Spring Boot.MyoApplication">
     <configuration name="BlogApiControllerTest.addArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="My-blog.test" />
       <extension name="coverage">
@@ -372,7 +371,8 @@
       <workItem from="1734015374807" duration="151000" />
       <workItem from="1734099025089" duration="608000" />
       <workItem from="1734171665247" duration="132000" />
-      <workItem from="1734348141554" duration="786000" />
+      <workItem from="1734348141554" duration="1789000" />
+      <workItem from="1734438754329" duration="823000" />
     </task>
     <servers />
   </component>
