@@ -4,17 +4,25 @@
 
 package com.b1uesoda.myo.controller;
 
+import com.b1uesoda.myo.config.jwt.JwtFactory;
 import com.b1uesoda.myo.config.jwt.JwtProperties;
+import com.b1uesoda.myo.domain.RefreshToken;
+import com.b1uesoda.myo.domain.User;
+import com.b1uesoda.myo.dto.CreateAccessTokenRequest;
 import com.b1uesoda.myo.repository.RefreshTokenRepository;
 import com.b1uesoda.myo.repository.UserRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
+
+import java.util.Map;
 
 @SpringBootTest
 @AutoConfigureMockMvc
@@ -36,5 +44,29 @@ public class TokenApiControllerTest {
     public void mockMvcSetUp() {
         this.mockMvc = MockMvcBuilders.webAppContextSetup(context).build();
         userRepository.deleteAll();
+    }
+
+    @DisplayName("createNewAccessToken: 새로운 액세스 토큰을 발급한다.")
+    @Test
+    public void  createNewAccessToken() throws Exception {
+        // given
+        final String url = "/api/token";
+
+        User testUser = userRepository.save(User.builder()
+                .email("user@gmail.com")
+                .password("test")
+                .build());
+
+        String refreshToken = JwtFactory.builder()
+                .claims(Map.of("id", testUser.getId()))
+                .build()
+                .createToken(jwtProperties);
+
+        refreshTokenRepository.save(new RefreshToken(testUser.getId(),refreshToken));
+
+        CreateAccessTokenRequest request = new CreateAccessTokenRequest();
+        request.setRefreshToken(refreshToken);
+        final String requestBody = objectMapper.writeValueAsString(request);
+
     }
 }
