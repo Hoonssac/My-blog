@@ -17,6 +17,17 @@ spring:
     console:
       enabled: true
 
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 421006170168-c4brh8njarvdg06kuprh9qrfd94f4nfk.apps.googleusercontent.com
+            client-secret:
+            scope:
+              - email
+              - profile
+
 jwt:
   issuer: b1uesoda@naver.com
   secret-key: spring-boot

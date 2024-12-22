@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/util/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/24a11e4a-733a-47da-95df-0b178a5132c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/24a11e4a-733a-47da-95df-0b178a5132c3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3e60a280-f7b5-4b26-a26c-b9e7947a1741.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3e60a280-f7b5-4b26-a26c-b9e7947a1741.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-12-18_22_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-12-18_22_25__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/b1uesoda/myo/controller/TokenApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/b1uesoda/myo/controller/TokenApiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,6 +377,7 @@
       <workItem from="1734171665247" duration="132000" />
       <workItem from="1734348141554" duration="1789000" />
       <workItem from="1734438754329" duration="823000" />
+      <workItem from="1734872301578" duration="658000" />
     </task>
     <servers />
   </component>
