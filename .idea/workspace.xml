@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/oauth/OAuth2UserCustomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/WebOAuthSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-12-18_22_25_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024-12-18_22_25__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,7 +377,8 @@
       <workItem from="1734348141554" duration="1789000" />
       <workItem from="1734438754329" duration="823000" />
       <workItem from="1734872301578" duration="686000" />
-      <workItem from="1734953800573" duration="1538000" />
+      <workItem from="1734953800573" duration="1976000" />
+      <workItem from="1735137305302" duration="1185000" />
     </task>
     <servers />
   </component>
