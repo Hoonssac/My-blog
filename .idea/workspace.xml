@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/oauth/OAuth2AuthorizationRequestBasedOnCookieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/24a11e4a-733a-47da-95df-0b178a5132c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/24a11e4a-733a-47da-95df-0b178a5132c3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3e60a280-f7b5-4b26-a26c-b9e7947a1741.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3e60a280-f7b5-4b26-a26c-b9e7947a1741.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/WebOAuthSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/WebOAuthSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -377,6 +379,7 @@
       <workItem from="1734953800573" duration="1976000" />
       <workItem from="1735137305302" duration="1218000" />
       <workItem from="1735194249634" duration="529000" />
+      <workItem from="1735285863969" duration="461000" />
     </task>
     <servers />
   </component>
@@ -387,6 +390,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
