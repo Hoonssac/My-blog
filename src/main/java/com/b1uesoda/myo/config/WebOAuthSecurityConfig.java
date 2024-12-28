@@ -1,6 +1,7 @@
 package com.b1uesoda.myo.config;
 
 import com.b1uesoda.myo.config.jwt.TokenProvider;
+import com.b1uesoda.myo.config.oauth.OAuth2AuthorizationRequestBasedOnCookieRepository;
 import com.b1uesoda.myo.config.oauth.OAuth2UserCustomService;
 import com.b1uesoda.myo.repository.RefreshTokenRepository;
 import com.b1uesoda.myo.service.UserService;
