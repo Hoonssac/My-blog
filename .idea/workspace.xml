@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/WebOAuthSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/WebOAuthSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,7 +375,8 @@
       <workItem from="1734872301578" duration="686000" />
       <workItem from="1734953800573" duration="1976000" />
       <workItem from="1735137305302" duration="1218000" />
-      <workItem from="1735194249634" duration="529000" />
+      <workItem from="1735194249634" duration="847000" />
+      <workItem from="1735393303170" duration="504000" />
     </task>
     <servers />
   </component>
