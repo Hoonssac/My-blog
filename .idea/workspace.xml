@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/oauth/OAuth2SuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/config/oauth/OAuth2SuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/domain/Article.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,7 +379,8 @@
       <workItem from="1735194249634" duration="847000" />
       <workItem from="1735393303170" duration="504000" />
       <workItem from="1735436134962" duration="828000" />
-      <workItem from="1735533889109" duration="501000" />
+      <workItem from="1735533889109" duration="1383000" />
+      <workItem from="1735653920147" duration="222000" />
     </task>
     <servers />
   </component>
