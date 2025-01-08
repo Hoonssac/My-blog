@@ -45,20 +45,40 @@ if (modifyButton) {
 // id가 create-btn인 엘리먼트
 const createButton = document.getElementById("create-btn");
 if(createButton) {
-    // 클릭 이벤트가 감지되면 생성 API 요청
+
+    // 등록 버튼을 클릭하면 /api/articles로 요청을 보냄
     createButton.addEventListener("click", (event) => {
-        fetch("/api/articles", {
-            method: "POST",
-            headers: {
-                "Content-Type" : "application/json",
-            },
-            body: JSON.stringify({
-                title: document.getElementById("title").value,
-                content: document.getElementById("content").value,
-            }),
-        }).then(() => {
+        body = JSON.stringify({
+            title: document.getElementById("title").value,
+            content: document.getElementById("contetn").value,
+        });
+        function success() {
             alert("등록 완료되었습니다.");
             location.replace("/articles");
-        });
+        }
+        function fail() {
+            alert("등록 실패했습니다.");
+            location.replace("/articles");
+        }
+
+        httpRequest("POST", "/api/articles", body, success, fail);
     });
+}
+
+// 쿠키를 가져오는 함수
+function getCookie(key) {
+    var result = null;
+    var cookie = document.cookie.split(";");
+    cookie.some(function (item) {
+        item = item.replace(" ", "");
+
+        var dic = item.split("=");
+
+        if (key === dic[0]) {
+            result = dic[1];
+            return true;
+        }
+    });
+
+    return result;
 }
