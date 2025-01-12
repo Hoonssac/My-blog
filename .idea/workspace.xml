@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="" />
+    <list default="true" id="6888b845-44c7-445e-ac83-67dc72c8c52b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/b1uesoda/myo/service/BlogService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -388,6 +390,7 @@
       <workItem from="1736257446725" duration="1673000" />
       <workItem from="1736347017020" duration="1581000" />
       <workItem from="1736513358843" duration="1759000" />
+      <workItem from="1736688322721" duration="177000" />
     </task>
     <servers />
   </component>
