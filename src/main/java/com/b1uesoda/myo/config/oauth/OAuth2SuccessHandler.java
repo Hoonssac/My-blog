@@ -50,6 +50,8 @@ public class OAuth2SuccessHandler extends SimpleUrlAuthenticationSuccessHandler 
         getRedirectStrategy().sendRedirect(request, response, targetUrl);
     }
 
+
+
     // 생성된 리프레시 토큰을 전달받아 데이터베이스에 저장
     private void saveRefreshToken(Long userId, String newRefreshToken) {
         RefreshToken refreshToken = refreshTokenRepository.findByUserId(userId)
@@ -74,6 +76,7 @@ public class OAuth2SuccessHandler extends SimpleUrlAuthenticationSuccessHandler 
 
     // 액세스 토큰을 패스에 추가
     private String getTargetUrl(String token) {
+        System.out.println("getTarget");
         return UriComponentsBuilder.fromUriString(REDIRECT_PATH)
                 .queryParam("token", token)
                 .build()
